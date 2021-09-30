@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/asz18369/1101-209410140-tododemo/static/css/main.920b0855.chunk.css",
+    "main.js": "/asz18369/1101-209410140-tododemo/static/js/main.64460484.chunk.js",
+    "main.js.map": "/asz18369/1101-209410140-tododemo/static/js/main.64460484.chunk.js.map",
+    "runtime-main.js": "/asz18369/1101-209410140-tododemo/static/js/runtime-main.5f51eb62.js",
+    "runtime-main.js.map": "/asz18369/1101-209410140-tododemo/static/js/runtime-main.5f51eb62.js.map",
+    "static/js/2.67a3e512.chunk.js": "/asz18369/1101-209410140-tododemo/static/js/2.67a3e512.chunk.js",
+    "static/js/2.67a3e512.chunk.js.map": "/asz18369/1101-209410140-tododemo/static/js/2.67a3e512.chunk.js.map",
+    "static/js/3.3919b3f5.chunk.js": "/asz18369/1101-209410140-tododemo/static/js/3.3919b3f5.chunk.js",
+    "static/js/3.3919b3f5.chunk.js.map": "/asz18369/1101-209410140-tododemo/static/js/3.3919b3f5.chunk.js.map",
+    "index.html": "/asz18369/1101-209410140-tododemo/index.html",
+    "static/css/main.920b0855.chunk.css.map": "/asz18369/1101-209410140-tododemo/static/css/main.920b0855.chunk.css.map",
+    "static/js/2.67a3e512.chunk.js.LICENSE.txt": "/asz18369/1101-209410140-tododemo/static/js/2.67a3e512.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f51eb62.js",
+    "static/js/2.67a3e512.chunk.js",
+    "static/css/main.920b0855.chunk.css",
+    "static/js/main.64460484.chunk.js"
+  ]
+}

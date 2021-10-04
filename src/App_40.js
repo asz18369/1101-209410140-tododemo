@@ -5,9 +5,9 @@ function App_40() {
   return (
     <div>
       <h1>My Todos</h1>
-      <Todo_40 text='HI'/>
-      <Todo_40 text='教授您好'/>
-      <Todo_40 text='我是陳至賢'/>
+      <Todo_40 text='Learn React'/>
+      <Todo_40 text='Learn English'/>
+      <Todo_40 text='Study Hard'/>
     </div>
   );
 }

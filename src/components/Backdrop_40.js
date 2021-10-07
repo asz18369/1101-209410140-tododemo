@@ -1,6 +1,6 @@
-function Backdrop_40(){
+function Backdrop_40(props){
     return(
-        <div className="backdrop"></div>
+        <div className="backdrop" onClick={props.onClose}></div>
     )
 }
 

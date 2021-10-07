@@ -4,9 +4,15 @@ import Backdrop_40 from './Backdrop_40';
 
 function Todo_40(props) {
     const [showModal,setShowModal] = useState();
+
     function showModalHandler(){
         setShowModal(true);
     }
+
+    function closeModalHandler(){
+        setShowModal(false);
+    }
+
     return(
         <div>
         <div className="card">
@@ -16,7 +22,7 @@ function Todo_40(props) {
         </div>
         </div>
         {showModal && < Backdrop_40 />}
-        {showModal && < Modal_40/ >}
+        {showModal && < Modal_40 text = 'Are you sure?' onClose={closeModalHandler}/>}
         </div>
         
     );

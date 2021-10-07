@@ -1,10 +1,10 @@
-function Modal_40(){
+function Modal_40(props){
 
     return(
         <div className="modal">
-            <p>Are you sure?</p>
-            <button className="btn btn--alt">Cancel</button>
-            <button className="btn">Confirm</button>
+            <p>{props.text}</p>
+            <button className="btn btn--alt" onClick={props.onClose}>Cancel</button>
+            <button className="btn" onClick={props.onClose}>Confirm</button>
         </div>
     )
 }

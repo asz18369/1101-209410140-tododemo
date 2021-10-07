@@ -1,13 +1,24 @@
-import React from 'react'
+import { useState }from 'react';
+import Modal_40 from '../components/Modal_40';
+import Backdrop_40 from './Backdrop_40';
 
 function Todo_40(props) {
+    const [showModal,setShowModal] = useState();
+    function showModalHandler(){
+        setShowModal(true);
+    }
     return(
+        <div>
         <div className="card">
         <h2>{props.text}</h2>
         <div className="actions">
-            <button className="btn">Delete</button>
+            <button className="btn" onClick={showModalHandler} >Delete</button>
         </div>
-    </div>
+        </div>
+        {showModal && < Backdrop_40 />}
+        {showModal && < Modal_40/ >}
+        </div>
+        
     );
 }
 
